@@ -26,7 +26,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 320px;
+    width: 60%;
+    height: 250px;
     border: 1px solid #CAC4C4;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -99,7 +100,7 @@
     border:none;
     color:white;
     background: #8D733F;
-    font-size: 20px;
+    font-size: 13px;
     font-family: 'MedievalSharp', cursive;
     width:60%;
     height: 15%;
@@ -161,12 +162,22 @@ select {
     width:60%;
     height: 40%;
 }
+
 @media (max-width: 1200px) {
     .banner{
         height: 300px;
     }
     .comprar{
-        font-size: 17px;
+        font-size: 10px;
+    }
+    .card-produto{
+        height: 200px;
+        width: 70%;
+    }
+    .quantidade{
+        width: 53px;
+        height: 22px;
+        font-size: 7px;
     }
 }
 @media (max-width: 992px){
@@ -179,11 +190,12 @@ select {
     .escudo-desconto{
         top: 0;
         left: 0;
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 40px;
     }
     .card-produto{
         height: 200px;
+        width: 80%;
     }
     .preco-de{
         font-size: 5px;
@@ -221,8 +233,8 @@ select {
     .escudo-desconto{
         top: 0;
         left: 0;
-        height: 15px;
-        width: 15px;
+        height: 30px;
+        width: 30px;
     }
     
     .quantidade{
@@ -242,5 +254,34 @@ select {
     }
     .newsletter h2{
         font-size: 20px;
+    }
+}
+@media (max-Width: 566px){
+    .escudo-desconto{
+        top: 0;
+        left: 0;
+        height: 40px;
+        width: 40px;
+    }
+    .card-produto h4{
+        font-size: 25px;
+    }
+    .card-produto{
+        height: 300px;
+        width: 250px;
+    }
+    .preco-de{
+        font-size: 10px;
+    }
+    .preco-por{
+        font-size: 15px;
+    }
+    .quantidade{
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .comprar{
+        font-size: 15px;
     }
 }

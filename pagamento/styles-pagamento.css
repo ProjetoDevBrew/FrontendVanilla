@@ -18,8 +18,16 @@
     font-size: 15px;
 }
 
+.form-control {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+
 .form-control:hover{
+    box-shadow: 2px 2px 0px 0px #8B4513;
     border-color: #8B4513;
+    font-style: italic;
 }
 
 .btn-pagamento{

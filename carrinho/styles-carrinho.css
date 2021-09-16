@@ -1,0 +1,62 @@
+.body-carrinho{
+    padding: 50px;
+    font-size: large;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    color: #8B4513;
+    align-items: center;
+    justify-content: center;
+  /*  background-image: url("https://images.tcdn.com.br/img/img_prod/727571/revestimento_adesivo_madeira_cerejeira_com_textura_25_1_20191015083022.jpg"); */
+}
+
+.breadcrumb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.img-cerveja{
+    margin: 5px;
+    max-width: 30%;
+    max-height: 30%;
+    text-align: center;
+}
+
+.cerveja-imagem{
+    text-align: center;
+}
+
+h4{
+    padding-top: 50px;
+    padding-bottom: 10px;
+    color: #8B4513;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h6{
+    font-size: 15px;
+    color: #8B4513;
+    font-weight: bold;
+    text-align: center;
+}
+
+.descricao, .total{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.btn-resgatar, .rounded-pill, .btn-confirmar {
+    background-color: #B8860B;
+    color: #ffff;
+}
+
+
+.form-resgatar{
+    margin-bottom: 16px;
+}
+
+.btn-confirmar{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

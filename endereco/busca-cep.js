@@ -1,3 +1,5 @@
+// INÍCIO da API dos Correios
+
 function limpa_formulário_cep() {
             //Limpa valores do formulário de cep.
             document.getElementById('rua').value=("");
@@ -61,4 +63,6 @@ function limpa_formulário_cep() {
             //cep sem valor, limpa formulário.
             limpa_formulário_cep();
         }
+
+        // FIM da API dos Correios
     };

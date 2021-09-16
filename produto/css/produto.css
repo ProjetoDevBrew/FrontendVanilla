@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Sabbath";
+    src: url(../fonts/Sabbath\ Paranoid.otf) format('opentype');
+}
+
 h4 a{
     color:black;
     text-decoration: none;
@@ -49,13 +54,19 @@ li{
 .container-produto{
     margin-bottom: 150px;
 }
+
+.accordion-button{
+    color: #8D733F; 
+    font-family: "Sabbath";
+}
 .accordion-button:focus{
     border-color: white;
     box-shadow: none;
     background-color:white;
 }
 .accordion-button:not(.collapsed){
-    color: black;
+    color: #8D733F; 
+    font-family: "Sabbath";
     background-color:white;
 }
 @media (max-width: 976px){

@@ -40,9 +40,14 @@ h6{
     text-align: center;
 }
 
-.descricao, .total{
+.descricao, .input-promocao, .codigo-promocao {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+}
+
+.input-promocao:hover{
+    font-style: italic;
+    border-color: #8B4513;
 }
 
 .btn-resgatar, .rounded-pill, .btn-confirmar {

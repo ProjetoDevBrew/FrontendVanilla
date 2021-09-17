@@ -18,9 +18,9 @@
     font-size: 15px;
 }
 
-.form-control {
+.form-control, .label-pagamento {
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
+    font-weight: bolder;
     
 }
 

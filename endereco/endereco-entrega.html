@@ -40,7 +40,7 @@
         <!-- Input de CEP obrigatório -->
         <div class="row">
             <div class="col-md">
-                <label>Informe seu CEP*:
+                <label class="label-endereco">Informe seu CEP*:
                     <input name="cep" type="text" id="cep" value="" class="form-control"
                         placeholder="04444000" onblur="pesquisacep(this.value);" /></label><br />
             </div>
@@ -48,31 +48,31 @@
 
         <!-- Input automático de rua -->
         <div class="col-md-10">
-            <label class="form-label">Rua:</label>
+            <label class="form-label label-endereco">Rua:</label>
             <input name="rua" type="text" class="form-control" id="rua" placeholder="Ex.: Av. Paulista" /><br />
         </div>
 
         <div class="col-md-2">
-            <label class="form-label">Número:</label>
+            <label class="form-label label-endereco">Número:</label>
             <input name="numero" type="text" id="numero" class="form-control" placeholder="Ex.: 2200"><br />
         </div>
 
         <!-- Input automático de bairro -->
         <div class="col-md-6">
-            <label class="form-label">Bairro:</label>
+            <label class="form-label label-endereco">Bairro:</label>
             <input name="bairro" type="text" id="bairro" class="form-control" placeholder="Ex.: Bela Vista" />
             <br />
         </div>
 
         <div class="col-md-6">
-            <label class="form-label">Complemento:</label>
+            <label class="form-label label-endereco">Complemento:</label>
             <input name="bairro" type="text" id="bairro" class="form-control" placeholder="Ex.: Casa, bloco, esquina" />
             <br />
         </div>
 
         <!-- Input automático de cidade -->
         <div class="col-md-6">
-            <label class="form-label">Cidade:</label>
+            <label class="form-label label-endereco">Cidade:</label>
             <input name="cidade" class="form-control" type="text" id="cidade" placeholder="Ex.: São Paulo" />
             <br />
         </div>
@@ -80,20 +80,20 @@
         <!-- Input automático de Estado (UF) -->
 
         <div class="col-md-1">
-            <label class="form-label">Estado:</label>
+            <label class="form-label label-endereco">Estado:</label>
             <input name="uf" type="text" id="uf" class="form-control" placeholder="Ex.: SP" />
             <br />
         </div>
         <div class="row">
             <div class="form-check">
   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-  <label class="form-check-label" for="flexRadioDefault1">
+  <label class="form-check-label label-endereco" for="flexRadioDefault1">
     Endereço de cobrança
   </label>
 </div>
 <div class="form-check">
   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-  <label class="form-check-label" for="flexRadioDefault2">
+  <label class="form-check-label label-endereco" for="flexRadioDefault2">
     Endereço de entrega
   </label>
 </div>

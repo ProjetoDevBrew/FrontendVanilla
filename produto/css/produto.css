@@ -7,7 +7,7 @@ h4 a{
     color:black;
     text-decoration: none;
 }
-li{
+.accordion-body li{
     list-style: none;
 }
 .preco-de h4{

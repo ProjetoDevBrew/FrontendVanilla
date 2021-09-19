@@ -1,7 +1,6 @@
 .body-pagamento{
     justify-content: center;
-    padding: 50px;
-    font-size: large;
+    font-size: small;
     font-family: 'MedievalSharp', cursive;
     font-weight: bold;
     color: #8B4513;
@@ -17,6 +16,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
+
+.container-pagamento {
+    justify-content: center;
+    padding: 35px;
+    margin: 0;
+    border-style: solid 0.5px;
+    border-color: #888888;
+    box-shadow: 5px 5px 8px #888888;
+    }
 
 .form-control, .label-pagamento {
     font-family: 'Roboto', sans-serif;

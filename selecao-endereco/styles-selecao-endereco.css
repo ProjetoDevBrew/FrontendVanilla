@@ -1,0 +1,33 @@
+.body-selecao-endereco{
+    padding: 50px;
+    font-size: small;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+    color: #8B4513;
+}
+
+.container-selecao-endereco{
+    display: block;
+    align-items: center;
+    position: relative;
+    width: 50vw;
+
+}
+.titulo-endereco{
+    font-size: medium;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: bold;
+}
+
+.bloco-endereco{
+    display: block;
+    color: #8B4513;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 5px 5px 8px #888888;
+    margin: 20px;
+}
+
+.bloco-endereco:hover {
+    box-shadow: 5px 5px 8px #8B4513;
+}

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.titulo {
+    color     : black;
+    margin-top: 20px;
+}
+
+
+.pp {
+    padding: 52px;
+}
+
+h1 {
+    font-family: 'MedievalSharp', serif;
+    font-weight: bolder;
+    color: black
+}
+
+#subtitulo {
+    color     : black;
+    margin-top: 5px;
+}
+
+
+.botao {
+    font-size    : 1.2em;
+    background   : #007ecc;
+    border       : 0;
+    margin-bottom: 1em;
+    color        : #ffffff;
+    padding      : 0.2em 0.6em;
+    left         : 5%;
+    margin-right : 100%;
+}
+
+textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing   : border-box;
+    box-sizing        : border-box;
+    width             : 100%;
+    height            : 70%;
+}
+
+.assunto {
+    width: 30%;
+
+}
